@@ -15,19 +15,20 @@ To use this project, follow these steps:
 ## Credits
 - **Design:** 
   - Didi Kurniawan (https://www.figma.com/community/file/858999227165747995)
-  - **Product Designer**
-        - ✦ UX/UI Mobile App Design
-        - ✦ UX/UI Web Design
-        - ✦ UX/UI Dashboard Design
-        - ✦ Illustration
-        - ✦ Branding
+    **Product Designer**
+     ✦ UX/UI Mobile App Design
+     ✦ UX/UI Web Design
+     ✦ UX/UI Dashboard Design
+     ✦ Illustration
+     ✦ Branding
+
     - ⥥ Available for new projects ⥥
     - 📩 Email: heylo.didi@gmail.com
     - 💬 Skype: didikurniawan888 / join.skype.com/invite/e0Ho2A01eGwA
     - 📞 Telegram: @didikoerniawan
     - 🗓 Book a Call : calendly.com/didikurniawan/30min
 
-    - Will be answered in less than 24 hours (Every day)
+    Will be answered in less than 24 hours (Every day)
 
 - **Images:**
   - Image 1: [Source](https://example.com/image1)
