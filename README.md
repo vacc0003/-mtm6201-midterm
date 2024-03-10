@@ -23,10 +23,10 @@ To use this project, follow these steps:
      ✦ Branding
 
     - ⥥ Available for new projects ⥥
-    - 📩 **Email:** heylo.didi@gmail.com
-    - 💬 **Skype:** didikurniawan888 / join.skype.com/invite/e0Ho2A01eGwA
-    - 📞 **Telegram:** @didikoerniawan
-    - 🗓 **Book a Call:** calendly.com/didikurniawan/30min
+    - 📩 **Email:** (heylo.didi@gmail.com)
+    - 💬 **Skype:** didikurniawan888 / (join.skype.com/invite/e0Ho2A01eGwA)
+    - 📞 **Telegram:** (@didikoerniawan)
+    - 🗓 **Book a Call:** (calendly.com/didikurniawan/30min)
 
     Will be answered in less than 24 hours (Every day)
 
