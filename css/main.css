@@ -3,7 +3,8 @@
  *****************************************************/
 
  .container {
-    width: 100%;
+    max-width: 100%;
+    margin: 1em;
 }
 
 .max-mar {
@@ -11,16 +12,20 @@
     margin: 0 auto;
 }
 
-.hundo-p {
-    width: 100%;
+
+::selection {
+    background-color: #FFECEC;
+    color: #F53838;
 }
+
+
 
 
 /* ------------------ TYPOGRAPHY ------------------ */
 
 html {
     font-family: Rubik;
-    background-color: #fff;
+
 }
 
 p {
@@ -47,6 +52,22 @@ h2 {
     line-height: 140%; 
 }
 
+h3 {
+    color: #0B132A;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+}
+
+h5 {
+    color: #4F5665;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}
+
 nav ul li a {
     color: #4F5665;
     font-family: Rubik;
@@ -57,6 +78,9 @@ nav ul li a {
     text-decoration: none;
 }
 
+.hero-cta h1 em {
+    font-weight: 700;
+}
 
 
 /* ------------------ BUTTONS ------------------ */
@@ -93,42 +117,160 @@ nav ul li a {
 
 /* ------------------ NAVIGATION ------------------ */
 
-nav ul {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    justify-items: center;
-    align-items: center;
+.signin:hover,
+.signin:focus {
+    color: #F53838;
 }
 
-li.logo {
-    flex: 2;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-}
 
-.nav-items {
-    display: flex;
-    justify-content: center;
-    flex: 4;
-    justify-items: center;
-    align-items: center;
-}
-
-.nav-items li {
-    padding: 1.5em;
-}
-
-.nav-buttons {
-    display: flex;
-    justify-content: space-between;
-    flex: 1;
-    justify-items: center;
-    align-items: center;
+.nav-items li a:hover,
+.nav-items li a:focus {
+    color: #F53838;
 }
 
 
 
 
 /* --------------------- HEADER -------------------- */
+
+
+
+
+
+
+ /**************************************************** 
+                    Mobile Styles
+ *****************************************************/
+
+ @media screen and (max-width:890px) {
+    .nav-items {
+        display: none;
+    }
+
+    *,
+    *::after,
+    *::before {
+        box-sizing: border-box;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        justify-items: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .nav-buttons {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    :root {
+        --bar-width: 60px;
+        --bar-height: 8px;
+        --hamburger-gap: 6px;
+
+    }
+
+
+
+ }
+
+
+/**************************************************** 
+                    Desktop Styles
+ *****************************************************/
+
+ @media screen and (min-width:890px) and (max-width:1384px) {
+    
+    /* ------------------ NAVIGATION ------------------ */
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    li.logo {
+        justify-items: center;
+        align-items: center;
+        padding-right: .5em;
+    }
+
+    .nav-items {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    .nav-items li {
+        padding: 1em;
+    }
+    
+    .nav-buttons {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .container {
+        margin: 1em;
+    }
+
+
+}
+
+
+ @media screen and (min-width:1384px) {
+
+/* ------------------ NAVIGATION ------------------ */
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    li.logo {
+        flex: 2;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    .nav-items {
+        display: flex;
+        justify-content: center;
+        flex: 4;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    .nav-items li {
+        padding: 1.5em;
+    }
+    
+    .nav-buttons {
+        display: flex;
+        justify-content: space-between;
+        flex: 1;
+        justify-items: center;
+        align-items: center;
+    }
+
+}
+
+
+@media screen and (min-width:890px) {
+
+
+
+}
