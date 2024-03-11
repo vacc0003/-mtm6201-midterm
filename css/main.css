@@ -1,0 +1,134 @@
+/**************************************************** 
+                    Global Styles
+ *****************************************************/
+
+ .container {
+    width: 100%;
+}
+
+.max-mar {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.hundo-p {
+    width: 100%;
+}
+
+
+/* ------------------ TYPOGRAPHY ------------------ */
+
+html {
+    font-family: Rubik;
+    background-color: #fff;
+}
+
+p {
+    color: #4F5665;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 187.5%; 
+}
+
+h1 {
+    color: #0B132A;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; 
+}
+
+h2 {
+    color: #0B132A;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; 
+}
+
+nav ul li a {
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+
+
+/* ------------------ BUTTONS ------------------ */
+
+
+.signin {
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0.5em 2em;
+}
+
+.signup {
+    padding: .5em 2em;
+    border: solid 1px #F53838;
+    border-radius: 50px;
+    color: #F53838;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.signup:hover,
+.signup:focus {
+    padding: .5em 2em;
+    border: solid 1px #F53838;
+    border-radius: 50px;
+    background-color: #F53838;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* ------------------ NAVIGATION ------------------ */
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+}
+
+li.logo {
+    flex: 2;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: center;
+    flex: 4;
+    justify-items: center;
+    align-items: center;
+}
+
+.nav-items li {
+    padding: 1.5em;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    justify-items: center;
+    align-items: center;
+}
+
+
+
+
+/* --------------------- HEADER -------------------- */

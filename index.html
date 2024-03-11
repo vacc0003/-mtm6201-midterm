@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="css/main.css">
 
     <!-- Font Link Styles -->
-
-    <!-- Icon Link Styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -23,14 +24,20 @@
             <!-- Navigation -->
             <nav class="hundo-p" aria-label="Main site navigation menu">
                 <ul class="max-mar">
-                    <li><a href="index.html" class="logo"><img aria-label="LaslesVPN Logo" src="images/Logo.svg" alt=""></a></li>
-                    <li><a href="#" aria-label="link to About page">About</a></li>
-                    <li><a href="#features" aria-label="link to Features">Features</a></li>
-                    <li><a href="#pricing" aria-label="link to Pricing">Pricing</a></li>
-                    <li><a href="#testimonials" aria-label="link to Testimonials">Testimonials</a></li>
-                    <li><a href="#" aria-label="link to Help page">Help</a></li>
-                    <li><a href="#" aria-label="Sign In button" class="signin">Sign In</a></li>
-                    <li><button aria-label="Sign Up button"><a href="#" class="signup"><img src="images/Button/signup.svg" alt=""></a></button></li>
+                    <div class="nav-logo">
+                        <li class="logo"><a href="index.html"><img aria-label="LaslesVPN Logo" src="images/Logo.svg" alt=""></a></li>
+                    </div>
+                    <div class="nav-items">
+                        <li><a href="#" aria-label="link to About page">About</a></li>
+                        <li><a href="#features" aria-label="link to Features">Features</a></li>
+                        <li><a href="#pricing" aria-label="link to Pricing">Pricing</a></li>
+                        <li><a href="#testimonials" aria-label="link to Testimonials">Testimonials</a></li>
+                        <li><a href="#" aria-label="link to Help page">Help</a></li>
+                    </div>
+                    <div class="nav-buttons">
+                        <li><a href="#" aria-label="Sign In button" class="signin">Sign In</a></li>
+                        <li><a href="#" aria-label="Sign Up button" class="signup">Sign Up</a></li>
+                    </div>
                    
                 </ul>
             </nav>
@@ -41,7 +48,7 @@
                     <div class="hero-box">
                         <img src="images/Illustration 1.svg" alt="Illustration of person on a computer">
                         <div class="hero-cta">
-                            <h1>Want anything to be easy with LaslesVPN.</h1>
+                            <h1>Want anything to be easy with <em>LaslesVPN.</em></h1>
                             <p>Provide a network for all your needs with ease and fun using <em>LaslesVPN</em> discover interesting feastures from us.</p>
                             <button aria-label="Get Started button"><a href="#" class="get-started"><img src="images/Button/get started.svg" alt=""></a></button>
                         </div>
