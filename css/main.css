@@ -129,7 +129,7 @@ nav ul li a {
     width: 250px;
     height: 60px;
     border-radius: 10px;
-    background: var(--lasles-red);
+    background: #F53838;
     color: #FFF;
     font-size: 16px;
     font-style: normal;
@@ -200,32 +200,25 @@ nav ul li a {
 
 /* --------------------- STATS -------------------- */
 
-/* .hero-cta button   {
-    width: 250px;
-    height: 60px;
-    border-radius: 10px;
-    background: var(--lasles-red);
-    color: #FFF;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 156.25%;
-    border: none;
-    cursor: pointer;
-    z-index: 3;
-    position: absolute;
+.stats ul {
+    display: flex;
+    justify-content: space-around;
 }
 
-.hero-cta .blur {
-    position: relative;
-    width: 250px;
-    height: 85.291px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    background: rgba(245, 56, 56, 0.35);
-    filter: blur(27px);
-    z-index: 2;
-} */
+.stats ul li {
+    margin: 2em 0 3em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    flex-grow: 1;
+}
+
+.stats-box li img {
+    padding: 0 0 1em 0;
+}
+
+
 
 
  /**************************************************** 
@@ -234,7 +227,7 @@ nav ul li a {
 
  @media screen and (max-width:895px) {
 
-/* ------------------ TYPOGRAPHY ------------------ */
+    /* ------------------ TYPOGRAPHY ------------------ */
 
 
 
@@ -257,7 +250,7 @@ nav ul li a {
 
 
 
-/* ------------------ NAVIGATION ------------------ */
+    /* ------------------ NAVIGATION ------------------ */
 
     *,
     *::after,
@@ -399,7 +392,7 @@ nav ul li a {
 
 
 
- }
+}
 
 
 /**************************************************** 
