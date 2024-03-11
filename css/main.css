@@ -31,7 +31,6 @@
 }
 
 
-
 /* ------------------ TYPOGRAPHY ------------------ */
 
 p {
@@ -52,7 +51,7 @@ h1 {
 
 h2 {
     color: #0B132A;
-    font-size: 50px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 500;
     line-height: 140%; 
@@ -90,7 +89,6 @@ nav ul li a {
 
 
 /* ------------------ BUTTONS ------------------ */
-
 
 .signin {
     color: #0B132A;
@@ -169,7 +167,6 @@ nav ul li a {
     z-index: 2;
 }
 
-
 /* ------------------ NAVIGATION ------------------ */
 
 .signin:hover,
@@ -181,9 +178,6 @@ nav ul li a {
 .nav-items li a:focus {
     color: #F53838;
 }
-
-
-
 
 /* --------------------- HEADER -------------------- */
 
@@ -218,6 +212,49 @@ nav ul li a {
     padding: 0 0 1em 0;
 }
 
+/* --------------------- FEATURES -------------------- */
+
+.features-img {
+    background-image: url(/images/Illustration\ 2.svg);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height:400px;
+}
+
+.features {
+    padding: 0 1em 1em 1em;
+}
+
+.features-cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.features h2,
+.features p,
+.features ul {
+    padding: .5em;
+}
+
+.checklist {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .checklist li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .checklist li img {
+    margin-right: 10px;
+  }
+
+  /* ----------------------- PLAN --------------------- */
+
+
 
 
 
@@ -229,7 +266,13 @@ nav ul li a {
 
     /* ------------------ TYPOGRAPHY ------------------ */
 
-
+    p {
+        color: #4F5665;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 180%; 
+    }
 
     h1 {
         color: #0B132A;
@@ -239,12 +282,12 @@ nav ul li a {
         line-height: 120%; 
     }
 
-    p {
-        color: #4F5665;
-        font-size: 16px;
+    h2 {
+        color: #0B132A;
+        font-size: 30px;
         font-style: normal;
-        font-weight: 400;
-        line-height: 180%; 
+        font-weight: 500;
+        line-height: 140%; 
     }
 
 
