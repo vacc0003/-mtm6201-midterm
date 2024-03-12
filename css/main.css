@@ -23,8 +23,6 @@
     margin: 0 auto;
 } */
 
-
-
 ::selection {
     background-color: #FFECEC;
     color: #F53838;
@@ -65,6 +63,14 @@ h3 {
     line-height: 120%; 
 }
 
+h4 {
+    color: #0B132A;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 30px;
+}
+
 h5 {
     color: #4F5665;
     font-size: 20px;
@@ -85,6 +91,15 @@ nav ul li a {
 
 .hero-cta h1 em {
     font-weight: 700;
+}
+
+.long-card ul li {
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 
@@ -167,6 +182,29 @@ nav ul li a {
     z-index: 2;
 }
 
+.select {
+    padding: .75em 4em;
+    border: solid 2px #F53838;
+    border-radius: 50px;
+    color: #F53838;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.select:hover,
+.select:focus {
+    padding: .75em 4em;
+    border: solid 2px #F53838;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #F53838;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
 /* ------------------ NAVIGATION ------------------ */
 
 .signin:hover,
@@ -234,26 +272,111 @@ nav ul li a {
 .features h2,
 .features p,
 .features ul {
-    padding: .5em;
+    padding: .5em 0 .5em 0;
 }
 
 .checklist {
     list-style: none;
     padding: 0;
-  }
+}
   
-  .checklist li {
+.checklist li {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-  }
+}
   
-  .checklist li img {
+.checklist li img {
     margin-right: 10px;
-  }
+}
 
   /* ----------------------- PLAN --------------------- */
 
+.pricing-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3em 1em 1em 1em;
+}
+
+.pricing h2,
+.pricing p {
+    padding: .5em 0 .5em 0;
+}
+
+.pricing-box h2 {
+    padding-bottom: .5em;
+}
+
+.long-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3em;
+}
+
+.long-card {
+    display: inline-flex;
+    padding: 33px 70px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    border: 2px solid #DDD;
+    background: #FFF;
+    margin: 1.5em 0 1em 0;
+}
+
+.confetti-box {
+    width: 144.904px;
+    height: 165.374px;
+    flex-shrink: 0;
+}
+
+.long-card .checklists {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 40px;
+}
+  
+.long-card .checklists li {
+    display: flex;
+    margin-bottom: 5px; 
+}
+  
+.long-card .checklists li img {
+    margin-right: 5px; 
+} 
+
+/* ----------------------- GLOBAL --------------------- */
+
+.global
+
+
+.global-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3em 1em 1em 1em;
+}
+
+.global-box h2 {
+    padding-bottom: .5em;
+}
+
+.global-img {
+    padding-top: 2em;
+    width: 100%;
+    height:300px;
+}
+
+.sponsors-img {
+    width: 100%;
+    height:150px;
+}
 
 
 
@@ -291,8 +414,6 @@ nav ul li a {
     }
 
 
-
-
     /* ------------------ NAVIGATION ------------------ */
 
     *,
@@ -305,7 +426,6 @@ nav ul li a {
         display: none;
     }
 
-  
     :root {
         --bar-width: 40px;
         --bar-height: 4px;
@@ -414,7 +534,6 @@ nav ul li a {
     .hamburger-menu input:focus-visible {
         border: 1px solid var(--background);
         box-shadow: 0 0 0 1px var(--foreground);
-
     }
 
    .mobile-logo {
@@ -432,9 +551,6 @@ nav ul li a {
    .hero-cta p {
     padding: 0 0 2em 0;
    }
-
-
-
 }
 
 
