@@ -190,6 +190,7 @@ nav ul li a {
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .select:hover,
@@ -202,8 +203,44 @@ nav ul li a {
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
+    text-decoration: none;
 }
 
+.left-arrow {
+    background-image: url(/images/Button/nonact/left.svg);
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.left-arrow:hover {
+    background-image: url(/images/Button/act/left.svg);
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.right-arrow {
+    background-image: url(/images/Button/nonact/right.svg);
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.right-arrow:hover {
+    background-image: url(/images/Button/act/right.svg);
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
 
 /* ------------------ NAVIGATION ------------------ */
 
@@ -350,9 +387,7 @@ nav ul li a {
     margin-right: 5px; 
 } 
 
-/* ----------------------- GLOBAL --------------------- */
-
-.global
+/* ---------------------- NETWORK -------------------- */
 
 
 .global-box {
@@ -376,6 +411,109 @@ nav ul li a {
 .sponsors-img {
     width: 100%;
     height:150px;
+}
+
+/* --------------------- TESTIMONIALS --------------------- */
+
+
+.testimonials-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3em 1em 3em 1em;
+}
+
+.testimonials-box h2 {
+    padding-bottom: .5em;
+}
+
+.cards {
+    display: flex;
+    gap: 50px;
+    padding: 1em;
+}
+
+.card {
+    width: 400px;
+    height: 230px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #DDD;
+    flex-direction: column;
+    padding: 1em;
+    display: flex;
+    justify-content: start;
+}
+
+.card img:nth-child(1){
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background:lightgray 50% / cover no-repeat;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1em;
+}
+
+.testimonials {
+    margin-bottom: 5em;
+}
+
+.slider-arrows {
+    display: flex;
+    justify-content: end;
+    gap: 1em;
+}
+
+.slider-actions {
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.slider-nav {
+    margin-top: 1em;
+}
+
+.slider-nav svg circle {
+    cursor: pointer;
+}
+
+.star {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5em;
+}
+
+.names {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: .3em;
+}
+
+.title {
+    display: flex;
+}
+
+.names h4 {
+    line-height: 20px;
+    text-align: left;
+}
+
+.names p {
+    text-align: left;
+}
+
+.title img {
+    margin-right: 1em;
 }
 
 
@@ -551,6 +689,8 @@ nav ul li a {
    .hero-cta p {
     padding: 0 0 2em 0;
    }
+
+
 }
 
 
