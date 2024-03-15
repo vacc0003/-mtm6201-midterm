@@ -48,6 +48,10 @@ header {
     margin: 0 auto;
 }
 
+.gradient {
+    background: linear-gradient(180deg, #F8F8F8 -45.04%, rgba(248, 248, 248, 0.00) 88.56%);
+}
+
 
 /* ------------------ TYPOGRAPHY ------------------ */
 
@@ -877,16 +881,6 @@ nav ul li a {
    .features-img {
     padding-top: 5em;
     }
-
-    /* ------------------------PLAN --------------------- */
-
-    .long-cards {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        margin-bottom: 3em;
-    }
     
 }
 
@@ -1007,32 +1001,6 @@ nav ul li a {
     }
 
 
-    /* ---------------------- PLAN ----------------------- */
-
-    .long-cards {
-        display: flex;
-        justify-content: space-between;
-        padding: 1em;
-    }
-
-    .long-card {
-        height: 674px;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-        padding: 4em 5em;
-    }
-
-    .conf img,
-    .conf h4 {
-        padding-bottom: 1em;
-    }
-
-    .sel h4 {
-        padding-bottom: 1.5em;
-    }
-
-
     /* ---------------------- NETWORK -------------------- */
 
     .global-img {
@@ -1064,8 +1032,22 @@ nav ul li a {
 
     /* ------------------- TESTIMONIALS ------------------ */
 
-    
+    .testimonials-box h2 {
+        max-width: 450px;
+    }
 
+    .testimonials-box p {
+        max-width: 555px;
+    }
+
+    .card {
+        height: 180px;
+        padding: 2em;
+    }
+
+    .cards {
+        gap: 40px;
+    }
 
 
     /* -------------------- SUBSCRIBE ------------------- */
@@ -1073,7 +1055,62 @@ nav ul li a {
     .subscribe {
         background-color: #FFF;
         padding: 5em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
     }
+
+    .subscribe {
+        position: relative;
+        padding: 1em;
+    }
+    
+    .subscribe-box {
+        background-color: #FFF;
+        border-radius: 10px;
+        position: relative;
+        z-index: 1;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .scribe-blur {
+        border-radius: 10px;
+        opacity: 0.06;
+        background: #0D1025;
+        filter: blur(57px);
+        width: 90%;
+        height: 189.218px;
+        flex-shrink: 0;
+        bottom: 4em;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .subscribe-box h2 {
+        max-width: 370px;
+        padding-bottom: .5em;
+        padding-left: 1em;
+    }
+
+    .subscribe-box p {
+        padding-left: 2.3em;
+    }
+
+    .subscribe-box {
+        padding: 2em;
+    }
+
+    .relative {
+        position: relative;
+        bottom: -8em;
+        width: 100%;
+        background-color: #FFF;
+    }
+    
 
 
     /* --------------------- FOOTER ---------------------- */
@@ -1081,6 +1118,7 @@ nav ul li a {
     .footer-container {
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
     
     .footer-right {
@@ -1097,8 +1135,80 @@ nav ul li a {
         min-width: 120px;
     }
 
-    
+    .footer {
+        height: 565px;
+        padding-top: 12em;
+        position: relative;
+    }
+
+    .copyright {
+        display: none;
+    }
+
+    .copyright-d {
+        padding-top: 1em;
+        color: #AFB5C0;
+    }
 
 
     
+}
+
+/**************************************************** 
+                Custom Card Querry's
+ *****************************************************/
+
+ @media screen and (min-width: 1081px) {
+
+    /* --------------------- PLAN ---------------------- */
+
+    .long-cards {
+        display: flex;
+        justify-content: space-between;
+        padding: 1em;
+    }
+
+    .long-card {
+        height: 674px;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        padding: 4em 5em;
+    }
+
+    .conf img,
+    .conf h4 {
+        padding-bottom: 1em;
+    }
+
+    .sel h4 {
+        padding-bottom: 1.5em;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 1079px) {
+
+    /* ------------------------PLAN --------------------- */
+
+    .long-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 3em;
+        text-align: center;
+    }
+
+    .sel h4 {
+        padding-bottom: 1em;
+    }
+
+    .conf h4 {
+        padding: 1em 0;
+    }
+
+
 }
