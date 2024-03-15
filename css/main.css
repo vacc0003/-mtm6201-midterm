@@ -320,6 +320,27 @@ nav ul li a {
 
 /* ------------------ NAVIGATION ------------------ */
 
+.active {
+    color: var(--lasles-red);
+    border: 1.5px solid var(--lasles-red);
+    padding: .3em .6em;
+    border-radius: 999px;
+}
+
+.sidebar .active-m {
+    color: var(--lasles-red);
+    border: 2px solid var(--lasles-red);
+    padding: .3em .6em;
+    border: 999px;
+}
+
+.nav-pad {
+    padding: .3em .6em;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 999px;
+}
+
+
 .signin:hover,
 .signin:focus {
     color: #F53838;
@@ -339,6 +360,11 @@ nav ul li a {
 .hero-img {
     width: 100%;
 } 
+
+.hero-cta p em {
+    font-weight: 500;
+}
+
 
 
 /* --------------------- STATS -------------------- */
@@ -501,6 +527,10 @@ nav ul li a {
 .sponsors-img {
     width: 100%;
     height:150px;
+}
+
+.global-box p em {
+    font-weight: 500;
 }
 
 /* --------------------- TESTIMONIALS --------------------- */
@@ -881,6 +911,12 @@ nav ul li a {
    .features-img {
     padding-top: 5em;
     }
+
+    /* --------------------- FOOTER ------------------- */
+
+    .copyright-d {
+        display: none;
+    }
     
 }
 
@@ -913,7 +949,7 @@ nav ul li a {
     }
     
     .nav-items li {
-        padding: 1em;
+        padding: 1em 0.4em;
     }
     
     .nav-buttons {
@@ -1142,7 +1178,6 @@ nav ul li a {
         color: #AFB5C0;
     }
 
-
     
 }
 
@@ -1201,6 +1236,93 @@ nav ul li a {
     .conf h4 {
         padding: 1em 0;
     }
+
+
+}
+
+
+/**************************************************** 
+                        ABOUT US
+ *****************************************************/
+
+
+.about-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3em 1em 1em 1em;
+}
+
+.about-box h2 {
+    padding-bottom: .5em;
+}
+
+.about-img {
+    border-radius: 5%;
+}
+
+.sponsors-img {
+    width: 100%;
+    height:150px;
+}
+
+.about-hero-img {
+    border-radius: 5%;
+    margin-left: 4em;
+    width: 90%;
+}
+
+.about-hero {
+    padding-top: 2em;
+}
+
+
+
+/* ------------------------ DESKTOP --------------------- */
+
+.about-img {
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+}
+
+.about-box {
+    padding-top: 1em;
+}
+
+.sponsors-img {
+    width: 100%;
+    height: 210px;
+    padding: 1em;
+}
+
+.about-box p {
+    width: 80%;
+    padding-bottom: 4em;
+}
+
+.about-box p em{
+    font-weight: 500;
+}
+
+
+
+
+/* ------------------------ MOBILE--------------------- */
+
+@media screen and (max-width:930px) {
+    .about-hero-img {
+        border-radius: 30px;
+        margin-left: 0;
+        margin-top: 2em;
+        width: 100%;
+    }
+
+    .about-box p{
+        width: 90%;
+    }
+
 
 
 }
