@@ -931,6 +931,18 @@ nav ul li a {
     padding-top: 5em;
     }
 
+    /* -------------------- TESTIMONIALS ---------------- */
+
+    .card {
+        width: 350px;
+    }
+
+    /* -------------------- SUBSCRIBE ------------------- */
+
+    .subscribe {
+        padding-top: 6em;
+    }
+
     /* --------------------- FOOTER ------------------- */
 
     .copyright-d {
@@ -943,9 +955,6 @@ nav ul li a {
         display: none;
     }
 
-    .subscribe {
-        padding-top: 6em;
-    }
 }
 
 
