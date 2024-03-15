@@ -940,7 +940,12 @@ nav ul li a {
     .copyright-d {
         display: none;
     }
+
+    /* --------------------- MASCOT ------------------- */
     
+    .cat {
+        display: none;
+    }
 }
 
 
@@ -1300,6 +1305,25 @@ nav ul li a {
     padding-top: 2em;
 }
 
+.cat {
+    position: absolute;
+    bottom: 40%; 
+    left: 80%; 
+    transform: translateX(-50%);
+    width: 50%; 
+    max-width: 200px; 
+    animation: bobbing 3s ease-in-out infinite; 
+}
+  
+  @keyframes bobbing {
+    0%, 100% {
+      transform: translateX(-50%) translateY(0);
+    }
+    50% {
+      transform: translateX(-50%) translateY(-10px); 
+    }
+}
+
 
 
 /* ------------------------ DESKTOP --------------------- */
@@ -1406,8 +1430,15 @@ nav ul li a {
   }
   
  /* ------------------------ MOBILE--------------------- */
+
   @media screen and (max-width: 768px) {
     .help-container {
       padding: 10px;
     }
   }
+
+  
+/**************************************************** 
+                        SLIDER
+ *****************************************************/
+
