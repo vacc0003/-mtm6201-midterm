@@ -1306,15 +1306,6 @@ nav ul li a {
     padding-top: 2em;
 }
 
-.cat {
-    position: absolute;
-    bottom: 40%; 
-    left: 90%; 
-    transform: translateX(-50%);
-    width: 50%; 
-    max-width: 200px; 
-    animation: bobbing 3s ease-in-out infinite; 
-}
   
   @keyframes bobbing {
     0%, 100% {
