@@ -7,6 +7,12 @@
     font-family: Rubik;
  }
 
+ body {
+    line-height: 1.5em;
+    display:block;
+    background-color: #FFF;
+ }
+
 .max-mar {
     max-width: 1200px;
     margin: 0 auto;
@@ -30,6 +36,16 @@
     --lasles-red: #F53838;
     --lasels-blue: #0B132A;
     --lasels-light: #FFECEC;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
 }
 
 
@@ -135,11 +151,6 @@ nav ul li a {
     color: #fff;
     font-size: 16px;
     font-weight: 500;
-}
-
-.hero-cta {
-    display: flex;
-    flex-direction: column;
 }
 
 .hero-cta button   {
@@ -322,11 +333,9 @@ nav ul li a {
 }
 
 .hero-img {
-    background-image: url(/images/Illustration\ 1.svg);
-    background-repeat: no-repeat;
-    max-width: 100%;
-    height:400px;
-}
+    width: 100%;
+} 
+
 
 /* --------------------- STATS -------------------- */
 
@@ -342,11 +351,38 @@ nav ul li a {
     align-items: center;
     padding: 1em;
     flex-grow: 1;
+
 }
 
 .stats-box li img {
     padding: 0 0 1em 0;
 }
+
+.stats-box {
+    position: relative;
+    padding: 1em;
+}
+
+.stats-white-box {
+    background-color: #FFF;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.stats-blur {
+    border-radius: 10px;
+    opacity: 0.06;
+    background: #0D1025;
+    filter: blur(57px);
+    width: 90%;
+    height: 189.218px;
+    flex-shrink: 0;
+    top: 4em;
+    position: absolute;
+    z-index: -1;
+}
+
 
 /* --------------------- FEATURES -------------------- */
 
@@ -720,11 +756,6 @@ nav ul li a {
 
     /* ------------------ NAVIGATION ------------------ */
 
-    *,
-    *::after,
-    *::before {
-        box-sizing: border-box;
-    }
 
     .desktop {
         display: none;
@@ -800,7 +831,8 @@ nav ul li a {
     .sidebar nav {
         display: flex;
         flex-direction: column;
-        text-align: center; 
+        text-align: center;
+        margin-top: 5em; 
     }
 
     .sidebar nav div{
@@ -827,9 +859,15 @@ nav ul li a {
 
    .mobile-logo {
         position: absolute;
-        top: 1.3em;
+        top: 2.4em;
         left: 1em;
    }
+
+   .hamburger-menu {
+    padding-top: 1em;
+   }
+
+
 
    /* --------------------- HEADER -------------------- */
 
@@ -839,6 +877,10 @@ nav ul li a {
    
    .hero-cta p {
     padding: 0 0 2em 0;
+   }
+
+   .hero-box {
+    padding-bottom: 4em;
    }
 
    /* --------------------- FOOTER -------------------- */
@@ -883,20 +925,53 @@ nav ul li a {
         align-items: center;
     }
 
-    .container {
-        margin: 1em;
-    }
-    
     .mobile-nav {
         display: none;
     }
 
-     /* ------------------- SUBSCRIBE ------------------- */
+    .desktop {
+        padding: 2em 1em 0 1em;
+    }
 
-     .subscribe {
+
+    /* --------------------- HEADER --------------------- */
+
+    .hero-box {
+        padding-bottom: 8em;
+        display: grid;
+        grid-template-areas: 
+        "hero-cta hero-img";
+
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .hero-cta { grid-area: hero-cta;}
+    .hero-img { grid-area: hero-img;}
+
+    .hero-cta h1 {
+        padding-bottom: .5em;
+    }
+
+    .hero-cta p {
+        padding-bottom: 2em;
+    }
+
+
+    /* ---------------------- STATS ---------------------- */
+
+    .stats ul li:nth-child(-n+2) {
+        border-right: solid 2px #f4f4f4;
+    }
+    
+
+    /* ------------------- SUBSCRIBE ------------------- */
+
+    .subscribe {
         background-color: #FFF;
         padding: 5em;
-     }
+    }
 
     /* --------------------- FOOTER --------------------- */
 
