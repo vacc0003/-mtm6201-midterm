@@ -718,7 +718,7 @@ nav ul li a {
                     Mobile Styles
  *****************************************************/
 
- @media screen and (max-width:895px) {
+ @media screen and (max-width:930px) {
 
     /* ------------------ TYPOGRAPHY ------------------ */
 
@@ -889,7 +889,7 @@ nav ul li a {
                     Desktop Styles
  *****************************************************/
 
- @media screen and (min-width:896px)  {
+ @media screen and (min-width:931px)  {
     
     /* ------------------- NAVIGATION ------------------- */
 
@@ -928,14 +928,6 @@ nav ul li a {
 
     .desktop {
         padding: 2em 1em 0 1em;
-    }
-
-    .logo a img {
-        padding-left: 1em;
-    }
-
-    .nav-buttons li:nth-child(2n+2) {
-        padding-right: 1em;
     }
 
 
@@ -1189,7 +1181,7 @@ nav ul li a {
 }
 
 
-@media screen and (max-width: 1079px) {
+@media screen and (max-width: 1080px) {
 
     /* ------------------------PLAN --------------------- */
 
