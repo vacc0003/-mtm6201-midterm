@@ -60,7 +60,27 @@
             <section class="hero about-hero">
                 <div class="max-mar">
                     <div class="hero-box">
-                        <img class="about-hero-img" aria-label="Illustration of nice view of moutain top" src="images/help.png" alt="">
+                        <picture>
+
+                            <source srcset="images/raster/help/help-320_x_240.jpg,
+                            images/raster/help/help-640_x_480.jpg 2x,
+                            images/raster/help/help-us-960_x_720.jpg 3x" media="(max-width: 320px)" />
+
+                            <source srcset="images/raster/help/help-480_x_360.jpg,
+                            images/raster/help/help-960_x_720.jpg 2x,
+                            images/raster/help/help-1440_x_1080.jpg 3x" media="(max-width: 480px)" />
+
+                            <source srcset="images/raster/help/help-720_x_540.jpg,
+                            images/raster/help/help-1440_x_1080.jpg 2x,
+                            images/raster/help/help-2160_x_1620.jpg 3x" media="(max-width: 720px)" />
+
+                            <source srcset="images/raster/help/help-960_x_720.jpg,
+                            images/raster/help/help-1920_x_1440.jpg 2x,
+                            images/raster/help/help-2880_x_2160.jpg 3x" media="(max-width: 960px)" />
+
+                            <img class="about-hero-img" aria-label="Illustration of a person smiling and reading a book" src="images/raster/help/help.jpg" alt="">
+
+                        </picture>
                         <div class="hero-cta">
                             <h1>Contact Us for Help</h1>
                             <p>Our Dedicated Support Team Is Ready to Assist You with Any Questions or Concerns You May Have</p>

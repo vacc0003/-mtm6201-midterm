@@ -60,7 +60,27 @@
             <section class="hero about-hero">
                 <div class="max-mar">
                     <div class="hero-box">
-                        <img class="about-hero-img" aria-label="Illustration of nice view of moutain top" src="images/about-us.jpeg" alt="">
+                        <picture>
+
+                            <source srcset="images/raster/about-us/about-us-320_x_240.jpg,
+                            images/raster/about-us/about-us-640_x_480.jpg 2x,
+                            images/raster/about-us/about-us-960_x_720.jpg 3x" media="(max-width: 320px)" />
+
+                            <source srcset="images/raster/about-us/about-us-480_x_360.jpg,
+                            images/raster/about-us/about-us-960_x_720.jpg 2x,
+                            images/raster/about-us/about-us-1440_x_1080.jpg 3x" media="(max-width: 480px)" />
+
+                            <source srcset="images/raster/about-us/about-us-720_x_540.jpg,
+                            images/raster/about-us/about-us-1440_x_1080.jpg 2x,
+                            images/raster/about-us/about-us-2160_x_1620.jpg 3x" media="(max-width: 720px)" />
+
+                            <source srcset="images/raster/about-us/about-us-960_x_720.jpg,
+                            images/raster/about-us/about-us-1920_x_1440.jpg 2x,
+                            images/raster/about-us/about-us-2880_x_2160.jpg 3x" media="(max-width: 960px)" />
+
+                            <img class="about-hero-img" aria-label="Illustration of nice view of moutain top" src="images/raster/about-us/about-us.jpeg" alt="">
+
+                        </picture>
                         <div class="hero-cta">
                             <h1>About <em>LaslesVPN.</em></h1>
                             <p>Your Trusted Partner in Digital Security: Providing Robust VPN Solutions to Safeguard Your Online Identity and Privacy, Anywhere, Anytime.</p>
@@ -83,7 +103,30 @@
                 <div class="about-box">
                     <h2>Our Commitment to Privacy</h2>
                     <p>Your privacy is our top priority. We are committed to protecting your personal information and ensuring that your online activities remain private and secure. With <em>LaslesVPN</em>, you can browse the web with confidence, knowing that your data is safe from prying eyes.</p>
-                    <img class="about-img" src="images/about.jpg" alt="Image of our network coverage map">
+                    <picture>
+
+                        <source srcset="images/raster/about/about-320_x_240.jpg,
+                                        images/raster/about/about-640_x_480.jpg 2x,
+                                        images/raster/about/about-960_x_720.jpg 3x"
+                                media="(max-width: 320px)" />
+
+                        <source srcset="images/raster/about/about-480_x_360.jpg,
+                                        images/raster/about/about-960_x_720.jpg 2x,
+                                        images/raster/about/about-1440_x_1080.jpg 3x"
+                                media="(max-width: 480px)" />
+
+                        <source srcset="images/raster/about/about-720_x_540.jpg,
+                                        images/raster/about/about-1440_x_1080.jpg 2x,
+                                        images/raster/about/about-2160_x_1620.jpg 3x"
+                                media="(max-width: 720px)" />
+
+                        <source srcset="images/raster/about/about-960_x_720.jpg,
+                                        images/raster/about/about-1920_x_1440.jpg 2x,
+                                        images/raster/about/about-2880_x_2160.jpg 3x"
+                                media="(max-width: 960px)" />
+
+                        <img class="about-img" src="images/raster/about/about.jpg" alt="Image of our network coverage map">
+                    </picture>
                     <img class="sponsors-img" src="images/Sponsored.svg" alt="List of our sponsors: Netflix, Reddit, Amazon, Discord, Spotify">
                 </div>
                 
