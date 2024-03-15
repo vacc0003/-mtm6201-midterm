@@ -23,7 +23,7 @@
         <a href="index.html" itemscope itemtype="https://schema.org/Organization"><img aria-label="LaslesVPN Logo" src="images/Logo.svg" alt="" class="mobile-logo" itemprop="logo"></a>
         <label class="hamburger-menu" aria-label="Mobile Hamburger Navigation Menu"><input type="checkbox"></label>
         <aside class="sidebar">
-            <nav role="navigation">
+            <nav>
                 <div><a href="about.html" aria-label="link to About page">About</a></div>
                 <div><a href="#features" aria-label="link to Features">Features</a></div>
                 <div><a href="#pricing" aria-label="link to Pricing">Pricing</a></div>
@@ -45,7 +45,7 @@
         <!-- Site Header -->
         <header>
             <!-- Navigation -->
-            <nav class="desktop" aria-label="Main site navigation menu" role="navigation">
+            <nav class="desktop" aria-label="Main site navigation menu">
                 <ul class="max-mar">
                     <div class="nav-logo" itemscope itemtype="https://schema.org/Organization">
                         <li class="logo"><a href="index.html"><img aria-label="LaslesVPN Logo" src="images/Logo.svg" alt="" itemprop="logo"></a></li>
@@ -68,9 +68,9 @@
             <section class="hero">
                 <div class="max-mar">
                     <div class="hero-box" role="banner">
-                        <img class="hero-img" aria-label="Illustration of person on a computer" src="images/Illustration 1.svg" alt="">
-                        <div class="hero-cta" itemscope itemtype="https://schema.org/Organization" >
-                            <h1 role="heading">Want anything to be easy with <em>LaslesVPN.</em></h1>
+                        <img class="hero-img" src="images/Illustration 1.svg" alt="Illustration of person on a computer">
+                        <div class="hero-cta" itemscope itemtype="https://schema.org/Organization">
+                            <h1>Want anything to be easy with <em itemprop="brand">LaslesVPN.</em></h1>
                             <p itemprop="description">Provide a network for all your needs with ease and fun using <em itemprop="brand">LaslesVPN</em> discover interesting feastures from us.</p>
                             <div>
                                 <a href="about.html" aria-label="Get Started button"><button>Get Started</button></a>
@@ -99,9 +99,9 @@
 
             <!-- Features Section -->
             <section id="features" class="features max-mar" role="banner">
-                <img class="features-img" aria-label="Illustration of person on a computer surprised" src="images/Illustration 2.svg" alt="">
+                <img class="features-img" src="images/Illustration 2.svg" alt="Illustration of person on a computer surprised">
                 <div class="features-cta">
-                    <h2 role="heading">We Provide Many Features You Can Use</h2>
+                    <h2>We Provide Many Features You Can Use</h2>
                     <p>You can explore the features that we provide with fun and have their own functions each feature.</p>
                     <ul class="checklist">
                         <li><img src="images/check.svg" alt="checkmark">Powerfull online protection.</li>
@@ -117,7 +117,7 @@
                 <section id="pricing" class="pricing max-mar">
                     
                     <div class="pricing-box">
-                        <h2 role="heading">Choose Your Plan</h2>
+                        <h2>Choose Your Plan</h2>
                         <p>Let's choose the package that is best for you and explore it happily and cheerfully.</p>
                     </div>
                     
@@ -187,7 +187,7 @@
                 <section class="global max-mar">
                     
                     <div class="global-box">
-                        <h2 role="heading">Huge Global Network of Fast VPN</h2>
+                        <h2>Huge Global Network of Fast VPN</h2>
                         <p>See <em>LaslesVPN</em> everywhere to make it easier for you when you move locations.</p>
                         <img class="global-img" src="images/Huge Global.svg" alt="Image of our network coverage map">
                         <img class="sponsors-img" src="images/Sponsored.svg" alt="List of our sponsors: Netflix, Reddit, Amazon, Discord, Spotify">
@@ -200,7 +200,7 @@
             <section id="testimonials" class="testimonials max-mar">
 
                 <div class="testimonials-box">
-                    <h2 role="heading">Trusted by Thousands of Happy Customer</h2>
+                    <h2>Trusted by Thousands of Happy Customer</h2>
                     <p>These are the stories of our customers who have joined us with great pleasure when using this crazy feature.</p>
                 </div>
 
@@ -210,7 +210,7 @@
                         <div class="cards slider">
                             
                             <!-- Card #1 -->
-                            <div class="card">
+                            <div class="card" id="slide-1">
                                 <div class="name">
                                     <div class="title">
                                         <img src="images/Testimonials/Viezh.png" alt="Viezh Robert">
@@ -228,7 +228,7 @@
                             </div>
                             
                             <!-- Card #2 -->
-                            <div class="card">
+                            <div class="card" id="slide-2">
                                 <div class="name">
                                     <div class="title">
                                         <img src="images/Testimonials/Yessica.png" alt="Yessica Christy">
@@ -246,7 +246,7 @@
                             </div>
                             
                             <!-- Card #3 -->
-                            <div class="card">
+                            <div class="card" id="slide-3">
                                 <div class="name">
                                     <div class="title">
                                         <img src="images/Testimonials/Kim.png" alt="Kim Young Jou">
@@ -301,23 +301,23 @@
                     </div>
                 </div>
                     
-                    
                     <!-- Subscribe Section -->
                     <div class="relative" id="subscribe">
-                <section class="subscribe max-mar">
-                    <div class="subscribe-box">
-                        <div class="subz">
-                            <h2 role="heading">Subscribe Now for Get Special Features!</h2>
-                            <p>Let's subscribe with us and find the fun.</p>
-                        </div>
-                        <div class="scribz">
-                            <a href="#" aria-label="Subscribe Now Button"><button>Subscribe</button></a>
-                            <div class="blur"></div>
-                        </div>
-                        </div>
-                    <div class="scribe-blur"></div>
-                </section>
-            </div>
+                        <section class="subscribe max-mar">
+                            <div class="subscribe-box">
+                                <div class="subz">
+                                    <h2>Subscribe Now for Get Special Features!</h2>
+                                    <p>Let's subscribe with us and find the fun.</p>
+                                </div>
+                                <div class="scribz">
+                                    <a href="#" aria-label="Subscribe Now Button"><button>Subscribe</button></a>
+                                    <div class="blur"></div>
+                                </div>
+                            </div>
+                            <div class="scribe-blur"></div>
+                        </section>
+                    </div>    
+            </section>
                 
         </main>
 

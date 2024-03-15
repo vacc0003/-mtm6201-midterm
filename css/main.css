@@ -248,8 +248,7 @@ nav ul li a {
 }
 
 .left-arrow {
-    background-image: url(/images/Button/nonact/left.svg);
-    background-size: cover;
+    content: url(/images/Button/nonact/left.svg);
     width: 60px;
     height: 60px;
     flex-shrink: 0;
@@ -257,8 +256,7 @@ nav ul li a {
 }
 
 .left-arrow:hover {
-    background-image: url(/images/Button/act/left.svg);
-    background-size: cover;
+    content: url(/images/Button/act/left.svg);
     width: 60px;
     height: 60px;
     flex-shrink: 0;
@@ -266,8 +264,7 @@ nav ul li a {
 }
 
 .right-arrow {
-    background-image: url(/images/Button/nonact/right.svg);
-    background-size: cover;
+    content: url(/images/Button/nonact/right.svg);
     width: 60px;
     height: 60px;
     flex-shrink: 0;
@@ -275,8 +272,7 @@ nav ul li a {
 }
 
 .right-arrow:hover {
-    background-image: url(/images/Button/act/right.svg);
-    background-size: cover;
+    content: url(/images/Button/act/right.svg);
     width: 60px;
     height: 60px;
     flex-shrink: 0;
@@ -946,6 +942,10 @@ nav ul li a {
     .cat {
         display: none;
     }
+
+    .subscribe {
+        padding-top: 6em;
+    }
 }
 
 
@@ -1109,7 +1109,7 @@ nav ul li a {
     /* -------------------- SUBSCRIBE ------------------- */
 
     .subscribe {
-        background-color: #FFF;
+        /* background-color: #FFF; */
         padding: 5em;
         display: flex;
         justify-content: space-between;
@@ -1123,7 +1123,7 @@ nav ul li a {
     }
     
     .subscribe-box {
-        background-color: #FFF;
+        /* background-color: #FFF; */
         border-radius: 10px;
         position: relative;
         z-index: 1;
@@ -1308,7 +1308,7 @@ nav ul li a {
 .cat {
     position: absolute;
     bottom: 40%; 
-    left: 80%; 
+    left: 90%; 
     transform: translateX(-50%);
     width: 50%; 
     max-width: 200px; 
