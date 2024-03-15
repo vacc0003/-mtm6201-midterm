@@ -31,9 +31,10 @@ To use this project, follow these steps:
     Will be answered in less than 24 hours (Every day)
 
 - **Images:**
-  - Image 1: [Source](https://example.com/image1)
-  - Image 2: [Source](https://example.com/image2)
-  - Image 3: [Source](https://example.com/image3)
+  - Image 1: [Source](https://unsplash.com/photos/man-in-blue-dress-shirt-sitting-on-rolling-chair-inside-room-with-monitors-wawEfYdpkag)
+  - Image 2: [Source](https://dribbble.com/shots/21108587-Seasons-of-mindfulness-Summer)
+  - Image 3: [Source](https://dribbble.com/shots/22836502-Oakwood-Girl-Studying)
+
 
 ## Contributing
 1. Fork the repository.
@@ -41,7 +42,6 @@ To use this project, follow these steps:
 3. Commit your changes (`git commit -am 'Add some fooBar'`).
 4. Push to the branch (`git push origin feature/fooBar`).
 5. Create a new Pull Request.
-
 
 ## License and 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.

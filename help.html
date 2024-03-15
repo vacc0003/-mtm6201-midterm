@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LaslesVPN - About</title>
+    <title>LaslesVPN - Help</title>
 
     <!-- Style Sheets -->
     <link rel="stylesheet" href="css/reset.css">
@@ -23,11 +23,11 @@
         <label class="hamburger-menu" aria-label="Mobile Hamburger Navigation Menu"><input type="checkbox"></label>
         <aside class="sidebar">
             <nav>
-                <div><a href="about.html" aria-label="link to About page" id="active-m">About</a></div>
+                <div><a href="about.html" aria-label="link to About page">About</a></div>
                 <div><a href="index.html#features" aria-label="link to Features">Features</a></div>
                 <div><a href="index.html#pricing" aria-label="link to Pricing">Pricing</a></div>
                 <div><a href="index.html#testimonials" aria-label="link to Testimonials">Testimonials</a></div>
-                <div><a href="help.html" aria-label="link to Help page">Help</a></div>
+                <div><a href="help.html" aria-label="link to Help page" id="active-m">Help</a></div>
             </nav>
         </aside>
     </div>
@@ -43,11 +43,11 @@
                         <li class="logo"><a href="index.html"><img aria-label="LaslesVPN Logo" src="images/Logo.svg" alt=""></a></li>
                     </div>
                     <div class="nav-items">
-                        <li><a href="about.html" aria-label="link to About page" class="active">About</a></li>
+                        <li><a href="about.html" aria-label="link to About page" class="nav-pad">About</a></li>
                         <li><a href="index.html#features" aria-label="link to Features" class="nav-pad">Features</a></li>
                         <li><a href="index.html#pricing" aria-label="link to Pricing" class="nav-pad">Pricing</a></li>
                         <li><a href="index.html#testimonials" aria-label="link to Testimonials" class="nav-pad">Testimonials</a></li>
-                        <li><a href="help.html" aria-label="link to Help page" class="nav-pad">Help</a></li>
+                        <li><a href="help.html" aria-label="link to Help page" class="active">Help</a></li>
                     </div>
                     <div class="nav-buttons">
                         <li><a href="#" aria-label="Sign In button" class="signin">Sign In</a></li>
@@ -60,12 +60,12 @@
             <section class="hero about-hero">
                 <div class="max-mar">
                     <div class="hero-box">
-                        <img class="about-hero-img" aria-label="Illustration of nice view of moutain top" src="images/about-us.jpeg" alt="">
+                        <img class="about-hero-img" aria-label="Illustration of nice view of moutain top" src="images/help.png" alt="">
                         <div class="hero-cta">
-                            <h1>About <em>LaslesVPN.</em></h1>
-                            <p>Your Trusted Partner in Digital Security: Providing Robust VPN Solutions to Safeguard Your Online Identity and Privacy, Anywhere, Anytime.</p>
+                            <h1>Contact Us for Help</h1>
+                            <p>Our Dedicated Support Team Is Ready to Assist You with Any Questions or Concerns You May Have</p>
                             <div>
-                                <a href="index.html#pricing" aria-label="See pricing button"><button>See Pricing</button></a>
+                                <a href="about.html" aria-label="See pricing button"><button>About Us</button></a>
                                 <div class="blur"></div>
                             </div>
                         </div>
@@ -75,20 +75,31 @@
          </header>
 
         <!-- Starting Main Content -->
-        <main class="hundo-p">
-
-            <!-- About Section -->
-            <section class="global max-mar">
-                    
-                <div class="about-box">
-                    <h2>Our Commitment to Privacy</h2>
-                    <p>Your privacy is our top priority. We are committed to protecting your personal information and ensuring that your online activities remain private and secure. With <em>LaslesVPN</em>, you can browse the web with confidence, knowing that your data is safe from prying eyes.</p>
-                    <img class="about-img" src="images/about.jpg" alt="Image of our network coverage map">
-                    <img class="sponsors-img" src="images/Sponsored.svg" alt="List of our sponsors: Netflix, Reddit, Amazon, Discord, Spotify">
+        <main class="help max-mar">
+            <div class="help-width">
+                <div class="help-container">
+                    <form action="#" method="POST">
+                        <h2>Contact Us</h2>
+                        <div class="input-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="subject">Subject:</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit">Send Message</button>
+                    </form>
                 </div>
-                
-            </section>
-                
+            </div>
         </main>
 
         <!-- Footer -->
