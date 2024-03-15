@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LaslesVPN - Help</title>
 
@@ -19,10 +20,10 @@
 
     <!-- Mobile Navigation -->
     <div class="mobile-nav">
-        <a href="index.html"><img aria-label="LaslesVPN Logo" src="images/Logo.svg" alt="" class="mobile-logo"></a>
+        <a href="index.html" itemscope itemtype="https://schema.org/Organization"><img aria-label="LaslesVPN Logo" src="images/Logo.svg" alt="" class="mobile-logo" itemprop=""></a>
         <label class="hamburger-menu" aria-label="Mobile Hamburger Navigation Menu"><input type="checkbox"></label>
         <aside class="sidebar">
-            <nav>
+            <nav role="navigation">
                 <div><a href="about.html" aria-label="link to About page">About</a></div>
                 <div><a href="index.html#features" aria-label="link to Features">Features</a></div>
                 <div><a href="index.html#pricing" aria-label="link to Pricing">Pricing</a></div>
@@ -44,10 +45,10 @@
         <!-- Site Header -->
         <header>
             <!-- Navigation -->
-            <nav class="desktop" aria-label="Main site navigation menu">
+            <nav class="desktop" aria-label="Main site navigation menu" role="navigation">
                 <ul class="max-mar">
-                    <div class="nav-logo">
-                        <li class="logo"><a href="index.html"><img aria-label="LaslesVPN Logo" src="images/Logo.svg" alt=""></a></li>
+                    <div class="nav-logo" itemscope itemtype="https://schema.org/Organization">
+                        <li class="logo"><a href="index.html"><img aria-label="LaslesVPN Logo" src="images/Logo.svg" alt="" itemprop="logo"></a></li>
                     </div>
                     <div class="nav-items">
                         <li><a href="about.html" aria-label="link to About page" class="nav-pad">About</a></li>
@@ -66,7 +67,7 @@
             <!-- Hero Section -->
             <section class="hero about-hero">
                 <div class="max-mar">
-                    <div class="hero-box">
+                    <div class="hero-box" role="banner">
                         <picture>
 
                             <source srcset="images/raster/help/help-320_x_240.jpg,
@@ -89,7 +90,7 @@
 
                         </picture>
                         <div class="hero-cta">
-                            <h1>Contact Us for Help</h1>
+                            <h1 role="heading">Contact Us for Help</h1>
                             <p>Our Dedicated Support Team Is Ready to Assist You with Any Questions or Concerns You May Have</p>
                             <div>
                                 <a href="about.html" aria-label="See pricing button"><button>About Us</button></a>
@@ -102,11 +103,11 @@
          </header>
 
         <!-- Starting Main Content -->
-        <main class="help max-mar">
+        <main class="help max-mar" role="main">
             <div class="help-width">
                 <div class="help-container">
-                    <form action="#" method="POST">
-                        <h2>Contact Us</h2>
+                    <form action="#" method="POST" role="form">
+                        <h2 role="heading">Contact Us</h2>
                         <div class="input-group">
                             <label for="name">Name:</label>
                             <input type="text" id="name" name="name" required>
@@ -123,7 +124,7 @@
                             <label for="message">Message:</label>
                             <textarea id="message" name="message" rows="4" required></textarea>
                         </div>
-                        <button type="submit">Send Message</button>
+                        <button type="submit" aria-label="Submit the contact form">Send Message</button>
                     </form>
                 </div>
             </div>
@@ -141,9 +142,10 @@
                             <a href="https://twitter.com/"><img class="twitter" aria-label="Icon linking to our Twitter profile" src="images/Socmed/Twitter.svg" alt=""></a>
                             <a href="https://www.instagram.com/"><img class="inst" aria-label="Icon linking to our Instagram profile" src="images/Socmed/Instagram.svg" alt=""></a>
                         </div>
-                        <div class="copyright-d">
-                            &copy;2020Lasles<em>VPN</em>
-                        </div>
+                        <div class="copyright" role="contentinfo" itemscope itemtype="https://schema.org/Organization">
+                            <div itemprop="copyrightHolder">
+                                &copy;2020Lasles<em>VPN</em>
+                            </div>
                     </div>   
                     <div class="footer-right">
                         <div class="footer-product">
@@ -176,9 +178,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="copyright">
-                    &copy;2020Lasles<em>VPN</em>
-                </div>
+                <div class="copyright" role="contentinfo" itemscope itemtype="https://schema.org/Organization">
+                    <div itemprop="copyrightHolder">
+                        &copy;2020Lasles<em>VPN</em>
+                    </div>
             </div>
         </footer>
 

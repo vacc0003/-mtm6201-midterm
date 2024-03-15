@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LaslesVPN</title>
 
@@ -18,11 +19,11 @@
 <body>
 
     <!-- Mobile Navigation -->
-    <div class="mobile-nav">
-        <a href="index.html"><img aria-label="LaslesVPN Logo" src="images/Logo.svg" alt="" class="mobile-logo"></a>
+    <div class="mobile-nav" >
+        <a href="index.html" itemscope itemtype="https://schema.org/Organization"><img aria-label="LaslesVPN Logo" src="images/Logo.svg" alt="" class="mobile-logo" itemprop="logo"></a>
         <label class="hamburger-menu" aria-label="Mobile Hamburger Navigation Menu"><input type="checkbox"></label>
         <aside class="sidebar">
-            <nav>
+            <nav role="navigation">
                 <div><a href="about.html" aria-label="link to About page">About</a></div>
                 <div><a href="#features" aria-label="link to Features">Features</a></div>
                 <div><a href="#pricing" aria-label="link to Pricing">Pricing</a></div>
@@ -44,10 +45,10 @@
         <!-- Site Header -->
         <header>
             <!-- Navigation -->
-            <nav class="desktop" aria-label="Main site navigation menu">
+            <nav class="desktop" aria-label="Main site navigation menu" role="navigation">
                 <ul class="max-mar">
-                    <div class="nav-logo">
-                        <li class="logo"><a href="index.html"><img aria-label="LaslesVPN Logo" src="images/Logo.svg" alt=""></a></li>
+                    <div class="nav-logo" itemscope itemtype="https://schema.org/Organization">
+                        <li class="logo"><a href="index.html"><img aria-label="LaslesVPN Logo" src="images/Logo.svg" alt="" itemprop="logo"></a></li>
                     </div>
                     <div class="nav-items">
                         <li><a href="about.html" aria-label="link to About page" class="nav-pad">About</a></li>
@@ -66,11 +67,11 @@
             <!-- Hero Section -->
             <section class="hero">
                 <div class="max-mar">
-                    <div class="hero-box">
+                    <div class="hero-box" role="banner">
                         <img class="hero-img" aria-label="Illustration of person on a computer" src="images/Illustration 1.svg" alt="">
-                        <div class="hero-cta">
-                            <h1>Want anything to be easy with <em>LaslesVPN.</em></h1>
-                            <p>Provide a network for all your needs with ease and fun using <em>LaslesVPN</em> discover interesting feastures from us.</p>
+                        <div class="hero-cta" itemscope itemtype="https://schema.org/Organization" >
+                            <h1 role="heading">Want anything to be easy with <em>LaslesVPN.</em></h1>
+                            <p itemprop="description">Provide a network for all your needs with ease and fun using <em itemprop="brand">LaslesVPN</em> discover interesting feastures from us.</p>
                             <div>
                                 <a href="about.html" aria-label="Get Started button"><button>Get Started</button></a>
                                 <div class="blur"></div>
@@ -82,7 +83,7 @@
          </header>
 
         <!-- Starting Main Content -->
-        <main class="hundo-p">
+        <main class="hundo-p" role="main">
 
             <!-- Statistics Section-->
             <section class="stats max-mar">
@@ -97,10 +98,10 @@
             </section>
 
             <!-- Features Section -->
-            <section id="features" class="features max-mar">
+            <section id="features" class="features max-mar" role="banner">
                 <img class="features-img" aria-label="Illustration of person on a computer surprised" src="images/Illustration 2.svg" alt="">
                 <div class="features-cta">
-                    <h2>We Provide Many Features You Can Use</h2>
+                    <h2 role="heading">We Provide Many Features You Can Use</h2>
                     <p>You can explore the features that we provide with fun and have their own functions each feature.</p>
                     <ul class="checklist">
                         <li><img src="images/check.svg" alt="checkmark">Powerfull online protection.</li>
@@ -116,7 +117,7 @@
                 <section id="pricing" class="pricing max-mar">
                     
                     <div class="pricing-box">
-                        <h2>Choose Your Plan</h2>
+                        <h2 role="heading">Choose Your Plan</h2>
                         <p>Let's choose the package that is best for you and explore it happily and cheerfully.</p>
                     </div>
                     
@@ -186,7 +187,7 @@
                 <section class="global max-mar">
                     
                     <div class="global-box">
-                        <h2>Huge Global Network of Fast VPN</h2>
+                        <h2 role="heading">Huge Global Network of Fast VPN</h2>
                         <p>See <em>LaslesVPN</em> everywhere to make it easier for you when you move locations.</p>
                         <img class="global-img" src="images/Huge Global.svg" alt="Image of our network coverage map">
                         <img class="sponsors-img" src="images/Sponsored.svg" alt="List of our sponsors: Netflix, Reddit, Amazon, Discord, Spotify">
@@ -199,7 +200,7 @@
             <section id="testimonials" class="testimonials max-mar">
 
                 <div class="testimonials-box">
-                    <h2>Trusted by Thousands of Happy Customer</h2>
+                    <h2 role="heading">Trusted by Thousands of Happy Customer</h2>
                     <p>These are the stories of our customers who have joined us with great pleasure when using this crazy feature.</p>
                 </div>
 
@@ -303,7 +304,7 @@
                 <section class="subscribe max-mar">
                     <div class="subscribe-box">
                         <div class="subz">
-                            <h2>Subscribe Now for Get Special Features!</h2>
+                            <h2 role="heading">Subscribe Now for Get Special Features!</h2>
                             <p>Let's subscribe with us and find the fun.</p>
                         </div>
                         <div class="scribz">
@@ -329,8 +330,10 @@
                             <a href="https://twitter.com/"><img class="twitter" aria-label="Icon linking to our Twitter profile" src="images/Socmed/Twitter.svg" alt=""></a>
                             <a href="https://www.instagram.com/"><img class="inst" aria-label="Icon linking to our Instagram profile" src="images/Socmed/Instagram.svg" alt=""></a>
                         </div>
-                        <div class="copyright-d">
-                            &copy;2020Lasles<em>VPN</em>
+                        <div class="copyright-d" role="contentinfo" itemscope itemtype="https://schema.org/Organization">
+                            <div itemprop="copyrightHolder">
+                                &copy;2020Lasles<em>VPN</em>
+                            </div>
                         </div>
                     </div>   
                     <div class="footer-right">
@@ -364,8 +367,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="copyright">
-                    &copy;2020Lasles<em>VPN</em>
+                <div class="copyright" role="contentinfo" itemscope itemtype="https://schema.org/Organization">
+                    <div itemprop="copyrightHolder">
+                        &copy;2020Lasles<em>VPN</em>
+                    </div>
                 </div>
             </div>
         </footer>
